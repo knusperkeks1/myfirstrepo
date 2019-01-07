@@ -35,6 +35,3 @@ if __name__ == "__main__":
         for j in range(B.shape[1]):
             # print(i,j)
                 D[i][j] =  B[i][j] + C[i][j]
-
-    print(type(D[0][0]))
-    print("thomas_" + "bernhard")
